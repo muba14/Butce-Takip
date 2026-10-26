@@ -1,0 +1,63 @@
+import 'package:flutter/material.dart';
+
+/// Başlıklar için seçilebilen simgeler. Anahtarlar kayıtta saklanır.
+const Map<String, IconData> kIcons = {
+  'home': Icons.home_rounded,
+  'shopping_cart': Icons.shopping_cart_rounded,
+  'receipt_long': Icons.receipt_long_rounded,
+  'directions_bus': Icons.directions_bus_rounded,
+  'directions_car': Icons.directions_car_rounded,
+  'local_gas_station': Icons.local_gas_station_rounded,
+  'sports_esports': Icons.sports_esports_rounded,
+  'subscriptions': Icons.subscriptions_rounded,
+  'shield': Icons.shield_rounded,
+  'medical_services': Icons.medical_services_rounded,
+  'school': Icons.school_rounded,
+  'restaurant': Icons.restaurant_rounded,
+  'local_cafe': Icons.local_cafe_rounded,
+  'checkroom': Icons.checkroom_rounded,
+  'credit_card': Icons.credit_card_rounded,
+  'fitness_center': Icons.fitness_center_rounded,
+  'pets': Icons.pets_rounded,
+  'card_giftcard': Icons.card_giftcard_rounded,
+  'flight': Icons.flight_rounded,
+  'smartphone': Icons.smartphone_rounded,
+  'wifi': Icons.wifi_rounded,
+  'bolt': Icons.bolt_rounded,
+  'water_drop': Icons.water_drop_rounded,
+  'child_care': Icons.child_care_rounded,
+  'build': Icons.build_rounded,
+  'payments': Icons.payments_rounded,
+  'work': Icons.work_rounded,
+  'savings': Icons.savings_rounded,
+  'apartment': Icons.apartment_rounded,
+  'trending_up': Icons.trending_up_rounded,
+  'emoji_events': Icons.emoji_events_rounded,
+  'sell': Icons.sell_rounded,
+  'redeem': Icons.redeem_rounded,
+  'currency_exchange': Icons.currency_exchange_rounded,
+  'account_balance': Icons.account_balance_rounded,
+  'favorite': Icons.favorite_rounded,
+  'music_note': Icons.music_note_rounded,
+  'movie': Icons.movie_rounded,
+  'menu_book': Icons.menu_book_rounded,
+  'category': Icons.category_rounded,
+};
+
+IconData iconFor(String key) => kIcons[key] ?? Icons.category_rounded;
+
+/// Başlık rengi seçenekleri.
+const List<int> kPalette = [
+  0xFF2A86EE,
+  0xFF4F5BD5,
+  0xFF8B5CF6,
+  0xFFC026D3,
+  0xFFE5609B,
+  0xFFE0524A,
+  0xFFF07A2B,
+  0xFFF2A93B,
+  0xFF65A30D,
+  0xFF18A473,
+  0xFF14B8C4,
+  0xFF475569,
+];
